@@ -1,10 +1,11 @@
-import lottie, {
+import type {
   AnimationConfigWithData,
   AnimationItem,
   AnimationDirection,
   AnimationSegment,
   RendererType,
 } from "lottie-web";
+import lottie from "lottie-web/build/player/lottie_light";
 import React, {
   CSSProperties,
   useEffect,
