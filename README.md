@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/lottie-react)](https://www.npmjs.com/package/lottie-react) [![npm downloads/month](https://img.shields.io/npm/dm/lottie-react)](https://www.npmjs.com/package/lottie-react) [![Known Vulnerabilities](https://snyk.io/test/github/Gamote/lottie-react/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Gamote/lottie-react?targetFile=package.json) [![Coverage Status](https://coveralls.io/repos/github/Gamote/lottie-react/badge.svg?branch=master)](https://coveralls.io/github/Gamote/lottie-react?branch=master) [![Tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Gamote/lottie-react/blob/master/LICENSE)
 
-### This project is a modified version of **[lottie-react](https://github.com/Gamote/lottie-react)**, which uses just the [light version of lottie](https://github.com/airbnb/lottie-web/issues/929). This saves significant size in your end bundles.
+### This project is a modified version of **[lottie-light-react](https://github.com/dilan-dio4/lottie-light-react)** to correspond latest version of react
 
 This project is meant to give developers full control over **[Lottie](https://airbnb.design/lottie/)** instance with minimal implementation by wrapping **[lottie-web](https://github.com/airbnb/lottie-web)** in a Component or Hook that can be easily used in **React** applications.
 
@@ -12,16 +12,16 @@ This project is meant to give developers full control over **[Lottie](https://ai
 
     > _**Note:** This library is using React Hooks so the **minimum** version required for both **react** and **react-dom** is **v16.8.0**._
 
-2. Install `lottie-light-react` using **yarn**
+2. Install `@erviin/lottie-light-react` using **yarn**
 
     ```shell
-    yarn add lottie-light-react
+    yarn add @erviin/lottie-light-react
     ```
    
     or **npm**
 
     ```shell
-    npm i lottie-light-react
+    npm i @erviin/lottie-light-react
     ```
 
 ## Usage
@@ -42,7 +42,7 @@ export default App;
 
 ```tsx
 import React from "react";
-import { useLottie } from "lottie-light-react";
+import { useLottie } from "@erviin/lottie-light-react";
 import groovyWalkAnimation from "./groovyWalk.json";
 
 const App = () => {
